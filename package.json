@@ -1,20 +1,26 @@
 {
   "name": "astro-meta",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "src/components/meta.astro",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "build": "astro build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mzaini30/astro-meta.git"
   },
-  "keywords": [],
+  "keywords": [
+    "astro-component"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mzaini30/astro-meta/issues"
   },
-  "homepage": "https://github.com/mzaini30/astro-meta#readme"
+  "homepage": "https://github.com/mzaini30/astro-meta#readme",
+  "devDependencies": {
+    "astro": "^0.20.7"
+  }
 }
