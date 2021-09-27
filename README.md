@@ -40,7 +40,7 @@ import Meta from 'astro-meta'
       <meta property="og:image" content="https://cdn.statically.io/og/Hello%20world.jpg">
       <meta property="og:image:width" content="2048">
       <meta property="og:image:height" content="1170">
-      <meta name="twitter:card" content="summary_large_image">
+      <meta property="twitter:card" content="summary_large_image">
       <meta property="twitter:title" content="Hello world" />
       <meta property="twitter:description" content="It's a page about my hobby" />
       <meta property="twitter:image" content="https://cdn.statically.io/og/Hello%20world.jpg" />
